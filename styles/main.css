@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+body {
+  background-color: #343a40;
+  font-family: "Press Start 2P", cursive; }
+
+.again-btn {
+  background-color: #efefef;
+  width: 190px;
+  height: 47px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 22px;
+  margin-top: 16px;
+  margin-left: 16px; }
+
+.again-btn:hover {
+  cursor: pointer; }
+
+.title {
+  display: flex;
+  align-items: center;
+  align-content: space-around;
+  flex-direction: column;
+  height: 171px;
+  margin-top: 10px; }
+  .title h3 {
+    padding-bottom: 30px;
+    font-size: 34px;
+    color: #eeeeee; }
+  .title p {
+    font-size: 17px;
+    color: #eeeeee; }
+
+.middle-line {
+  margin-top: 60px; }
+  .middle-line .line {
+    width: 100%;
+    height: 8px;
+    background-color: #eeeeee; }
+  .middle-line .square {
+    width: 221px;
+    height: 188px;
+    background-color: #eeeeee;
+    margin: auto;
+    position: relative;
+    bottom: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .middle-line .square p {
+      font-size: 90px; }
+
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .result p {
+    color: #eeeeee;
+    font-size: 25px; }
+
+.score-board {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 10%;
+  margin-top: 5%; }
+  .score-board .result-score {
+    border: solid 3px #eeeeee;
+    width: 400px;
+    height: 172px;
+    margin-right: 530px; }
+  .score-board .score {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    margin-top: 35px; }
+    .score-board .score p {
+      height: 60px;
+      color: #eeeeee;
+      font-size: 20px;
+      margin-left: 10px; }
+  .score-board .type .input {
+    line-height: 80px;
+    margin: auto;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-family: "Press Start 2P", cursive;
+    text-align: center;
+    width: 200px;
+    border-width: 6px;
+    border-color: #eeeeee;
+    background-color: transparent;
+    border-style: solid;
+    color: #eeeeee; }
+  .score-board .type .input::placeholder {
+    color: rgba(238, 238, 238, 0.5); }
+
+.check {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .check .check-btn {
+    width: 180px;
+    height: 71px;
+    font-family: "Press Start 2P", cursive;
+    font-size: 20px;
+    background-color: #eeeeee;
+    border: none; }
+  .check .check-btn:hover {
+    cursor: pointer; }
+
+/*# sourceMappingURL=main.css.map */
